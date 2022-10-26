@@ -1,0 +1,112 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "PlayerControls",
+            "id": "ee7e1c68-07b8-40c2-aaf8-6d0a22311669",
+            "actions": [
+                {
+                    "name": "Accelerate",
+                    "type": "PassThrough",
+                    "id": "bd783ca2-d3e6-4f9e-96f2-34a213d7e0bd",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Drift",
+                    "type": "PassThrough",
+                    "id": "ea87b4d8-0540-4476-9c44-7c4d07e8b3c1",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Move",
+                    "type": "PassThrough",
+                    "id": "dfe19ba0-31ce-4fcf-8618-7e03456b5882",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "a80a7097-9658-4834-aff6-4ce37f793549",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "31902139-e5b2-4c8f-a334-5a3508d964f0",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Accelerate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "40e906ea-5241-4063-930b-4cbdca055a9c",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drift",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Horizontal",
+                    "id": "47ffb059-f345-4e1b-a5f6-4586b932fe25",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "024b207d-5ec2-48d7-a759-42f0bf406beb",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "3c5eba31-5731-400d-9f73-c314983b501d",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "80c63d82-a2fe-4182-a98c-6a3901dd9496",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
